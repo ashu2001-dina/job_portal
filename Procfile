@@ -1,1 +1,1 @@
-web: gunicorn FindJob.wsgi
+web: waitress-serve --port=$PORT FindJob.wsgi:application
