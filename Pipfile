@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2020.12.5"
+chardet = "==4.0.0"
+idna = "==2.10"
+requests = "==2.25.1"
+urllib3 = "==1.26.4"
+flask = "*"
+django = "==3.0.4"
+mysqlclient = "*"
+pillow = "*"
+django-ckeditor = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.8"
